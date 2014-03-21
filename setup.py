@@ -54,7 +54,7 @@ if sys.platform == 'darwin':
         LibraryDirs.append(LIBBOOST_PATH)
 
 else:
-    LinkArgs.append('-lboost_python-mt-py')
+    LinkArgs.append('-lboost_python-mt-py27')
 
     if BOOST_PATH is not None:
         IncludeDirs.append(BOOST_PATH)
